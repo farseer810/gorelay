@@ -19,7 +19,7 @@ this program is basically a web proxy program: receives GET and POST requests,
 and resend it to the URI which the Gorelay-Targeturi header indicates.
 here's an example:
 ```python3
-target_uri = "http://example.com/targeturl
+target_uri = "http://example.com/targeturl"
 params = {} # some GET data
 data = {} # some POST data
 headers = {'Gorelay-Targeturi': target_uri}
